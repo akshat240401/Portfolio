@@ -1,0 +1,73 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.a-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex:1;
+}
+
+.a-card.bg{
+    top: 0px;
+    left: 0px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 52%, 0% 0%);
+    background-color: rgb(58, 207, 58);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.a-card{
+    width: 100%;
+    height: 94%;
+    position: relative;
+    overflow: hidden;
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
+
+.a-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.a-sub{
+    margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
+}
+
+.a-mern{
+    height: 100%;
+    width: 100%;
+}
+
+.a-mern-img{
+    flex: 1;
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
