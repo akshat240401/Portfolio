@@ -1,0 +1,32 @@
+export const prodcuts = [
+    {
+        id:1,
+        img:"https://i.ibb.co/Nn2tmr0/Sarvakaraum-Info-3.png",
+        link:"https://github.com/akshat240401",
+    },
+    {
+        id:2,
+        img:"https://i.ibb.co/mbnQ2K5/Vascot-Info-5.png" ,
+        link:"https://github.com/akshat240401",
+    },
+    {
+        id:3,
+        img:"https://explore.easyprojects.net/wp-content/uploads/2012/08/project-management-952x640.png",
+        link:"https://github.com/akshat240401",
+    },
+    {
+        id:4,
+        img:"https://explore.easyprojects.net/wp-content/uploads/2012/08/project-management-952x640.png",
+        link:"https://github.com/akshat240401",
+    },
+    {
+        id:5,
+        img:"https://explore.easyprojects.net/wp-content/uploads/2012/08/project-management-952x640.png",
+        link:"https://github.com/akshat240401",
+    },
+    {
+        id:6,
+        img:"https://explore.easyprojects.net/wp-content/uploads/2012/08/project-management-952x640.png",
+        link:"https://github.com/akshat240401",
+    },
+]

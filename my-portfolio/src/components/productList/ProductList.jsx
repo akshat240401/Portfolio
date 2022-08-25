@@ -1,5 +1,6 @@
 import "./productList.css"
 import Product from "../product/Product"
+import { prodcuts } from "../../data"
 const ProductList = () => {
   return (
     <div className="pl">
@@ -8,12 +9,9 @@ const ProductList = () => {
             <p className="pl-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, consequuntur provident. Ea at deserunt dolorum qui quisquam aperiam repellat eum sint?</p>
         </div>
         <div className="pl-list">
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
+          {prodcuts.map((item)=>(
+            <Product key={item.id} img={item.img} link={item.link}/>
+          ))}
         </div>
     </div>
   )
