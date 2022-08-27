@@ -41,7 +41,16 @@
     font-weight: 300;
     width: 70%;
 }
-
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    aspect-ratio: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 .c-desc{
     font-weight: 200;
 }
@@ -63,18 +72,20 @@ input{
 }
 
 textarea{
-    width: 100%;
+    width: 50%;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
     background-color: transparent;
     color: white;
-    border: 2px solid rgb(58, 207, 58);
+    border-style: none;
+    border-bottom: 2px solid rgb(58, 207, 58);
 }
 
-button{
+.resume{
     border: none;
     padding: 15px;
+    display: flex;
     background-color: rgb(58, 207, 58);
     color: white;
     font-weight: 500;
