@@ -5,12 +5,12 @@ import Mail from "../../img/Mail.png"
 import Phone from "../../img/Phone.png"
 const Contact = () => {
     const onButtonClick = () => {
-        fetch('Resume.pdf').then(response => {
+        fetch('rep.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Resume.pdf';
+                alink.download = 'rep.pdf';
                 alink.click();
             })
         })
